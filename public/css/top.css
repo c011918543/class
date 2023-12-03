@@ -1,0 +1,39 @@
+/*body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background:#fffffe;
+    text-align: center;
+}*/
+body{
+  background:#ffffff;
+  font-size:15px;
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  height:60px;
+  width:100%;
+  margin:5 auto;
+}
+a{
+  padding:1em 10px;
+  margin:0 10px;
+  color:#000;
+  text-decoration:none;
+  letter-spacing:.1em;
+}
+.content{
+    flex: 1;
+    background-color: #eee;
+    text-align: center;
+    margin-top: 10px;
+    background-position: center;
+    background-image: url("field.jpg");
+    background-size:auto 200%;
+}

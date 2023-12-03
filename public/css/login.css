@@ -1,0 +1,80 @@
+body {
+    background:#fffffe;
+    text-align: center;
+  }
+h1 {
+    padding: 1rem 2rem;
+    color: #333;
+    text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px, #fff 1px -2px, #fff -1px -2px, #fff 2px 1px, #fff -2px 1px, #fff 2px -1px, #fff -2px -1px, rgba(0, 0, 0, .5) 3px 3px 3px;
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+    background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+    background-image: linear-gradient(to right, #68e0cf 100%);
+
+  }
+h4 {
+    position: relative;
+    margin: 0 auto;
+    padding: 0.5em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    background: #fffaf4;/*背景色*/
+    width:500px;
+    border-left: solid 5px #ffaf58;/*左線（実線 太さ 色）*/
+}
+a {
+    color:gray;
+  }
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  .btn,
+  a.btn,
+  button.btn {
+    font-size: 1.1rem;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 1rem;
+    cursor: pointer;
+
+
+
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+  }
+  
+  .btn--blue,
+a.btn--blue {
+  color: #fff;
+  background-color: #00aaee;
+  text-align: center;
+
+}
+.btn--blue:hover,
+a.btn--blue:hover {
+  color: #fff;
+  background: #00aaee;
+
+}
+.box{
+    position: relative;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+    width:500px;
+}
+.box p {
+    margin: 0 auto; 
+    padding: 0;
+}
